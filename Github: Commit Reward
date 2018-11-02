@@ -1,0 +1,12 @@
+一定の範囲内でコントリビュータが自己申告したスコアをコミットごとに分配します。
+ユーザーはgithubアカウントにおいて、プロフィール欄に自分のVXで始まるvolvoxアドレスを記入する必要があります。
+ユーザーはgithubリポジトリにコミットをプッシュするごとにスコアを獲得できます。
+コミットメッセージ中にスコアを「&&&25&&&」というような書式で記述するとその値(25)でスコアを獲得できます。
+この記述がない場合、デフォルトで10のスコアを分配します。
+ 
+ Distribute the score self-declared by contributors within a certain range for each commit. 
+ In the github account, the user needs to enter the volvox address starting with VX in the bio field. 
+ Users can aquire score each time they push a commit to the github repository. 
+ If you describe the score in a commit message in a format like "&&&25&&&", you can earn score by that value(25). 
+ If you do not declear this description, this app will distribute a score of 10 by default.
+ 
